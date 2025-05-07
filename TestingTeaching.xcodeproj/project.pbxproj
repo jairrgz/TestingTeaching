@@ -27,6 +27,7 @@
 		69D539A62DCAE0C2000901B6 /* TestingTeaching.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestingTeaching.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		69D539B62DCAE0C4000901B6 /* TestingTeachingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestingTeachingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		69D539C02DCAE0C4000901B6 /* TestingTeachingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestingTeachingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		69D539D42DCAF626000901B6 /* Transaction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Transaction.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -75,6 +76,7 @@
 		69D5399D2DCAE0C2000901B6 = {
 			isa = PBXGroup;
 			children = (
+				69D539D32DCAF61F000901B6 /* Transaction */,
 				69D539A82DCAE0C2000901B6 /* TestingTeaching */,
 				69D539B92DCAE0C4000901B6 /* TestingTeachingTests */,
 				69D539C32DCAE0C4000901B6 /* TestingTeachingUITests */,
@@ -90,6 +92,14 @@
 				69D539C02DCAE0C4000901B6 /* TestingTeachingUITests.xctest */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		69D539D32DCAF61F000901B6 /* Transaction */ = {
+			isa = PBXGroup;
+			children = (
+				69D539D42DCAF626000901B6 /* Transaction.swift */,
+			);
+			path = Transaction;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
